@@ -14,7 +14,7 @@ public class paint {
 		double squareMeters = height * lenght * 2 + height * width * 2
 				+ width * lenght;
 		
-		double bucket1L = 0, bucket5L = 0;
+		double bucket1L , bucket5L;
 		bucket5L = Math.ceil(squareMeters / 140);
 		bucket1L = Math.ceil(squareMeters / 30);
 		
