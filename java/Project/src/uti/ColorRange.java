@@ -2,11 +2,6 @@ package uti;
 
 import java.util.Scanner;
 
-/***
- * Class for calculating wave spectrum
- * @author yoanaangelova
- *
- */
 public class ColorRange {
 
 	public static void main(String[] args) {
