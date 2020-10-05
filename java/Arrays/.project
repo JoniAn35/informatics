@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Arrays</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/uti/mixUp10Elements.java</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/Arrays/src/uti/mixUp10Elements.java</locationURI>
+		</link>
+		<link>
+			<name>src/uti/onePositionBackwards.java</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/Arrays/src/uti/onePositionBackwards.java</locationURI>
+		</link>
+		<link>
+			<name>src/uti/random20Numbers.java</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/Arrays/src/uti/random20Numbers.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
