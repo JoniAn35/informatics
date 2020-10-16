@@ -16,14 +16,8 @@ public class sudoku {
 		}
 		
 		for (int x = 0; x < 9; x++) {
-			for (int i = 0; i < 8; i++) {
-				if (matrix [x][i] == matrix[x][i+1]) {
-					System.out.println("keine sudoku");
-					break;
-				}
-			}
+			
 		}
-		
 	}
 
 }
