@@ -14,26 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/uti/ColorRange.java</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/IfEslseStatements/src/uti/ColorRange.java</locationURI>
-		</link>
-		<link>
-			<name>src/uti/PlanetaryWeight.java</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/IfEslseStatements/src/uti/PlanetaryWeight.java</locationURI>
-		</link>
-		<link>
-			<name>src/uti/examExcuse.java</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/IfEslseStatements/src/uti/examExcuse.java</locationURI>
-		</link>
-		<link>
-			<name>src/uti/paint.java</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/IfEslseStatements/src/uti/paint.java</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

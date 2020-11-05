@@ -14,26 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/uti/isItAnAnagram.java</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/Loops/src/uti/isItAnAnagram.java</locationURI>
-		</link>
-		<link>
-			<name>src/uti/numberPyramid.java</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/Loops/src/uti/numberPyramid.java</locationURI>
-		</link>
-		<link>
-			<name>src/uti/starsPattern.java</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/Loops/src/uti/starsPattern.java</locationURI>
-		</link>
-		<link>
-			<name>src/uti/universityMoney.java</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/informatics/java/Loops/src/uti/universityMoney.java</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

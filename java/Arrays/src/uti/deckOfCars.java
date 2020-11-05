@@ -1,4 +1,4 @@
-package src.uti;
+package uti;
 
 import java.util.Random;
 

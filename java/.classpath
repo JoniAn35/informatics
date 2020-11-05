@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Arrays/src"/>
+	<classpathentry kind="src" path="IfEslseStatements/src"/>
+	<classpathentry kind="src" path="Loops/src"/>
+	<classpathentry kind="src" path="Methods/src"/>
+	<classpathentry kind="src" path="Modeling/src"/>
+	<classpathentry excluding="uti/java/Project/src/" kind="src" path="Project/src"/>
+	<classpathentry kind="src" path="Project/src/uti/java/Project/src"/>
+	<classpathentry kind="output" path="Arrays/bin"/>
+</classpath>
