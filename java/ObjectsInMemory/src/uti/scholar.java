@@ -13,9 +13,6 @@ public class scholar {
 	}
 	
 	public boolean getScholarship () {
-		if (this.averageProgress >= 5.75) {
-			return true;
-		}
-		return false;
+		return this.averageProgress >= 5.75;
 	}
 }
