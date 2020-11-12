@@ -1,13 +1,13 @@
 package uti;
 
-public class circle {
+public class Circle {
 	double radius = 1;
 	
-	public circle() {
+	public Circle() {
 		
 	}
 	
-	public circle(double newRadius) {
+	public Circle(double newRadius) {
 		radius = newRadius;
 	}
 	
