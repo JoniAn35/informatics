@@ -1,0 +1,11 @@
+					Time					 |
+---------------------------------------------|
+- hour: int									 |	-> the hour of the time
+- minutes: int								 |	-> the minutes of the time
+- seconds: int								 |	-> the seconds of the time
+---------------------------------------------|
++ Time()									 |	-> creates a Time object whit the current time
++ Time(n: long)								 |	-> creates a Time object whit specified time in milliseconds
++ Time(hour: int, minutes: int, seconds:int) |	-> creates a Time object whit specified time
++ setTime(n: long): void					 |	-> sets the time of the object with specified time in milliseconds
+---------------------------------------------|
