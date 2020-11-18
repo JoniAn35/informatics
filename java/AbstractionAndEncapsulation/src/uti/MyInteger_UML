@@ -1,20 +1,20 @@
 		   MyInteger			|	
 --------------------------------|	
-- value: int	!				|	-> stores the int value represented by the object
+- value: int					|	-> stores the int value represented by the object
 --------------------------------|
 + MyInteger()					|	-> that creates a MyInteger object for the specified int value
 + getValue(): int				|	-> returns the value
 + isEven(): boolean				|	-> return true if the value in this object is even
 + isOdd(): boolean				|	-> return true if the value in this object is odd
 + isPrime(): boolean			|	-> return true if the value in this object is prime
-+ isEven(n: int): boolean 	!	|	-> return true if the specified value is even
-+ isOdd(n: int): boolean	!	|	-> return true if the specified value is odd
-+ isPrime(n: int): boolean	!	|	-> return true if the specified value is prime
-+ isEven(MyInteger): boolean  !	|	-> return true if the specified value is even
-+ isOdd(MyInteger): boolean	  !	|	-> return true if the specified value is odd
-+ isPrime(MyInteger): boolean !	|	-> return true if the specified value is prime
++ isEven(n: int): boolean 		|	-> return true if the specified value is even
++ isOdd(n: int): boolean		|	-> return true if the specified value is odd
++ isPrime(n: int): boolean		|	-> return true if the specified value is prime
++ isEven(MyInteger): boolean  	|	-> return true if the specified value is even
++ isOdd(MyInteger): boolean		|	-> return true if the specified value is odd
++ isPrime(MyInteger): boolean 	|	-> return true if the specified value is prime
 + equals(n: int): boolean		|	-> return true if the value in this object is equal to the specified value
 + equals(MyInteger): boolean	|	-> return true if the value in this object is equal to the specified value
-+ parseInt(n: char[]): int	!	|	-> converts an array of numeric characters to an int value
-+ parseInt(n: String): int	!	|	-> converts a string into an int value
++ parseInt(n: char[]): int		|	-> converts an array of numeric characters to an int value
++ parseInt(n: String): int		|	-> converts a string into an int value
 --------------------------------
