@@ -43,7 +43,7 @@ public class TestMyInteger {
 		string = sc.next();
 		System.out.println("The string converted to an int are: " + integer.parseInt(string));
 		
-
+		sc.close();
 	}
 
 }

@@ -27,6 +27,8 @@ public class TestMyPoint {
 		
 		System.out.println("The distance between the default point and your point is: " 
 				+ ((int)(point1.distance(point3)*100))/100.0);
+		
+		sc.close();
 	}
 
 }
