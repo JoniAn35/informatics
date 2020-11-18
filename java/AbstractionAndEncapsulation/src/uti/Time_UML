@@ -8,4 +8,4 @@
 + Time(n: long)								 |	-> creates a Time object whit specified time in milliseconds
 + Time(hour: int, minutes: int, seconds:int) |	-> creates a Time object whit specified time
 + setTime(n: long): void					 |	-> sets the time of the object with specified time in milliseconds
---------------------------------------------- 
+---------------------------------------------  
