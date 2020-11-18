@@ -2,4 +2,5 @@
 org*.prefs
 *.class
 .classpath
+bin/
 
