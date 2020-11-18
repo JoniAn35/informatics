@@ -22,8 +22,8 @@ public class TestMyInteger {
 				+ "Is it prime: " + integer.isEven());
 		
 		System.out.println("The specified value: ");
-		System.out.println("Is it even: " + integer.isEven(n) + ";	" + "Is it odd: " + integer.isOdd(n) + "; 	" 
-				+ "Is it prime: " + integer.isEven(n) + "/n");
+		System.out.println("Is it even: " + MyInteger.isEven(n) + ";	" + "Is it odd: " + integer.isOdd(n) + "; 	" 
+				+ "Is it prime: " + integer.isEven(n));
 		
 		System.out.println("The object: ");
 		System.out.println("Is it even: " + integer.isEven(integer) + ";	" + "Is it odd: " + integer.isOdd(integer) + "; 	" 
