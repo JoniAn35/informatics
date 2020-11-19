@@ -1,12 +1,12 @@
-			 	 MyPoint				|
+		MyPoint			|
 ----------------------------------------| 	
-- x: int								|	-> the x coordinate of the point
-- y: int								|	-> the y coordinate of the point
+- x: int				|	-> the x coordinate of the point
+- y: int				|	-> the y coordinate of the point
 ----------------------------------------|
-+ MyPoint()								|	-> creates a point
-+ MyPoint(x: int, y: int)				|	-> constructs a point with specified coordinates
++ MyPoint()				|	-> creates a point
++ MyPoint(x: int, y: int)		|	-> constructs a point with specified coordinates
 + distance(n: MyPoint, x: int, y: int)	|	-> returns the distance from this point to a specified point of the MyPoint type
-+ distance(x: int, y: int)				|	-> returns the distance from this point to another point 
-										|		with specified x - and y -coordinates
++ distance(x: int, y: int)		|	-> returns the distance from this point to another point 
+					|		with specified x - and y -coordinates
 + distance(n: MyPoint, m: MyPoint)  	|	-> returns the distance from two MyPoint objects			//static
 ----------------------------------------
