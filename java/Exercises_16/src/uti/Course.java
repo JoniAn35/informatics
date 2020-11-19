@@ -2,7 +2,7 @@ package uti;
 
 public class Course {
 	private String courseName;
-	private String[] stidents = new String[5];
+	private String[] stidents = new String[100];
 	private int numberOfStudents;
 	
 	public Course(String courseName) {
