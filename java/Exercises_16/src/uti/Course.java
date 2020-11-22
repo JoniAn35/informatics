@@ -2,8 +2,8 @@ package uti;
 
 public class Course {
 	private String courseName;
-	private String[] stidents = new String[100];
-	private int numberOfStudents;
+	private String[] students = new String[100];
+	private int numberOfStudents = 0;
 	
 	public Course(String courseName) {
 		this.courseName = courseName;
@@ -14,18 +14,37 @@ public class Course {
 	}
 	
 	public void addStudent(String student) {
-		// adds a new student to the course
+		int i = 0;
+		
+		while (i < 100 && students[i] != null) {
+			i++;
+		}
+		
+		students[i] = student;
 	}
 	
 	public void dropStudent(String student) {
-		// drops a new student from the course
+		int i = 0;
+		
+		while (students[i] != student) {
+			i++;
+		}
+		
+		while (i < 99 && students[i] != null) {
+			students[i] = students[++i];
+		}
+		
+		students[i] = "null";
 	}
 
-	public String[] getStidents() {
-		return stidents;
+	public String[] getStudents() {
+		return students;
 	}
 
 	public int getNumberOfStudents() {
+		while (numberOfStudents < 100 && students[numberOfStudents] != null) {
+			numberOfStudents++;
+		}
 		return numberOfStudents;
 	}
 	
