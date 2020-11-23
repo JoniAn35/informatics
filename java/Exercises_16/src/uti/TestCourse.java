@@ -10,6 +10,7 @@ public class TestCourse {
 		course1.addStudent("Peter Jones");
 		course1.addStudent("Kim Smith");
 		course1.addStudent("Anne Kennedy");
+		
 		course2.addStudent("Peter Jones");
 		course2.addStudent("Steve Smith");
 		
