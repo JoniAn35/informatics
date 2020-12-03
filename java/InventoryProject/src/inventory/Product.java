@@ -18,7 +18,12 @@ public class Product {
     }
 
     public void addToInventory(int quantity) {
-    	this.qtyInStock += quantity;
+    	if (active) {
+    		this.qtyInStock += quantity;
+    	}
+    	else {
+    		System.out.println("The current product line is discontinued.");
+    	}
     }
     
     public void deductFromInventory(int quantity) {
