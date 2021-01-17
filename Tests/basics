@@ -119,17 +119,20 @@
 			
 			
 3. ВХОД И ИЗХОД НА ДАННИ
+
 	3.1 стандартен вход
 			-> импортва се import java.util.Scanner;
 			Scanner sc = new Scanner(System.in);
 			int x = sc.nextInt();
 			double y = sc.nextDuoble();
 			String z = sc.next();
+			
 	3.2 добавяне на текстов документ
 			а. file -> import > general -> file system -> намираш папката и в дясно трябва да ти излезе файла
 			б. четене то добавения файл
 					Scanner sc = new Scanner(*the_name_of_the_program*.class.
 							getResourceAsStream("*the_name_of_the_file*"));
+							
 	3.3 добавяне на "диалог
 			а. JOptionPane.showInputDialog(“...”)	-> за “диалог” с потребителя
 					String input = JOptionPane.showInputDialog("What's your name?");
